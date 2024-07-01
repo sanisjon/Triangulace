@@ -1,0 +1,3 @@
+/home/jonas/CLionProjects/Triangulation (git)/cmake-build-debug/CMakeFiles/Triangulation.dir
+/home/jonas/CLionProjects/Triangulation (git)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jonas/CLionProjects/Triangulation (git)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
