@@ -14,13 +14,6 @@ This project focuses on the triangulation of polygons using both single-threaded
 
 Panear Polygon Triangulation is a semestral project developed to compare the efficiency of single-threaded and multi-threaded implementations of polygon triangulation. The project also generates SVG visualizations to help users understand the triangulation process.
 
-## Features
-
-- Single-threaded polygon triangulation
-- Multi-threaded polygon triangulation
-- Performance comparison between single-threaded and multi-threaded implementations
-- SVG visualizations of triangulated polygons
-
 ## Requirements
 
 - C++17 or later
@@ -40,8 +33,25 @@ Panear Polygon Triangulation is a semestral project developed to compare the eff
 
 - **Single-threaded polygon triangulation**: Implementation of the polygon triangulation algorithm using a single thread.
 - **Multi-threaded polygon triangulation**: Implementation of the polygon triangulation algorithm using multiple threads for improved performance.
+- **Polygon generator**: Random polygon generator driverd by user inputs sutch ass min/max height, number of wertecies 
 - **Performance comparison**: Tools to compare the execution time of single-threaded and multi-threaded implementations.
 - **SVG visualization**: Generation of SVG files to visualize the triangulated polygons.
+
+## Classes and Functions
+**Graph**
+- Represents the overall polygon data structure holding all polygon attributes
+
+**ThreadGraph**
+- A multithreaded version of the Graph class
+
+**Vertex**
+- Represents a point in the plane, holding information about its coordinates and a unique name.
+
+**Triangle**
+- Contains 3 polygon vertices; it is the product of the triangulation process.
+
+**DataHelper**
+- Helper class for running code comparison and listing to the Console.
 
 ## SVG Visualization
 
